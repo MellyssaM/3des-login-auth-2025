@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Posts</h1>
+        <button class="logout-btn" onclick="logout()">Sair</button>
+    </div>
+    <div class="container">
+        <div class="welcome-message">
+            <h2>Bem-vindo!</h2>
+            <p>Você está logado com sucesso. Aqui estão os posts disponíveis:</p>
+        </div>
+        <div class="posts-section">
+            <h2>Posts Recentes</h2>
+            <div id="postsContainer">
+                <div class="loading">Carregando posts...</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
